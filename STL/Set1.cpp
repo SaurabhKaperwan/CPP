@@ -11,7 +11,7 @@ int main()
 	{
 		string str;
 		cin>>str;
-		s.insert(str);
+		s.insert(str);//O(logn)
 	}
 	for(auto value : s)
 	{
